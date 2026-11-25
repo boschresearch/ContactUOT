@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PEP 582; used by e.g. python-local
+__pypackages__/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Project-specific: generated/data artifacts, not part of the release repo
+scarti/
+/models/
+results/
+x0.npy
+x_pred.npy
+
+# Vendored decoder weights (multi-GB) -- not tracked, see README for download
+# instructions. The surrounding code/config/LICENSE files ARE tracked.
+external/pixel2style2pixel/pretrained_models/*.pt
+external/LightSB/ALAE/training_artifacts/ffhq/*.pth
+external/dc-ae/pretrained_models/
+external/1d-tokenizer/pretrained_models/
+
+# ffhq_alae/ffhq_psp/ucf101_dc/ucf101_titok training data -- not tracked, see
+# README for download instructions. The datasets/download_*_data.sh scripts
+# ARE tracked.
+datasets/ffhq/*.npy
+datasets/ucf101/*.pt
